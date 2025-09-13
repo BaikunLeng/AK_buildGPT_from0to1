@@ -41,6 +41,8 @@ The main entry point is:
 ```bash
 python3 gpt_mini.py --dataset <tinyshakespeare|wikitext2|ptb>
 
+---
+
 ## W&B Logs
 
 All experiment logs are tracked with [Weights & Biases (W&B)](https://wandb.ai/leonleng-university-of-washington/mini-gpt-benchmark).
