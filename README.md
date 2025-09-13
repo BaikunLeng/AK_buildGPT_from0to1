@@ -7,15 +7,11 @@ This project follows Andrej Karpathy's "GPT from scratch" style, with extra benc
 
 ## Project Structure
 AK_buildGPT_from0to1/
-│
-├── gpt_mini.py         # Main training script (tiny GPT-like model)
-├── run_test.sh         # Helper shell script to run experiments on different datasets
-├── input.txt           # Tiny Shakespeare dataset (downloaded automatically if missing)
-├── data_ptb/           # Penn Treebank dataset (train/valid text files)
-│   ├── ptb.train.txt
-│   └── ptb.valid.txt
-├── wandb/              # Auto-generated logs from W&B runs
-└── .gitattributes      # Git settings (e.g. line endings)
+gpt_mini.py         # Main training script (tiny GPT-like model)
+run_test.sh         # Helper shell script to run experiments on different datasets
+input.txt           # Tiny Shakespeare dataset (downloaded automatically if missing)
+data_ptb/           # Penn Treebank dataset (train/valid text files)
+wandb/              # Auto-generated logs from W&B runs
 
 ---
 
