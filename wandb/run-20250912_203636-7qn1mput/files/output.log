@@ -1,0 +1,5 @@
+0.209729 M parameters
+step 0: train loss 4.4109, val loss 4.4016, val BPC 6.350
+step 100: train loss 2.6511, val loss 2.6604, val BPC 3.838
+step 200: train loss 2.4941, val loss 2.4902, val BPC 3.593
+step 300: train loss 2.3905, val loss 2.4023, val BPC 3.466

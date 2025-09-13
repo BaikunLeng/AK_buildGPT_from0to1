@@ -1,0 +1,87 @@
+_wandb:
+    value:
+        cli_version: 0.21.4
+        e:
+            yl158bd75gfzyk99ykv7ikcawj2himul:
+                apple:
+                    ecpuCores: 6
+                    gpuCores: 10
+                    memoryGb: 16
+                    name: Apple M4
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "6442450944"
+                args:
+                    - --dataset
+                    - wikitext2
+                codePath: gpt_mini.py
+                codePathLocal: gpt_mini.py
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "182255472640"
+                email: 120090238@link.cuhk.edu.cn
+                executable: /usr/local/bin/python3
+                git:
+                    commit: 7404252a62709197aea472cb72c5d9062a5c6371
+                    remote: https://github.com/BaikunLeng/AK_buildGPT_from0to1.git
+                host: Leons-MacBook-Air-2.local
+                memory:
+                    total: "17179869184"
+                os: macOS-15.5-arm64-arm-64bit-Mach-O
+                program: /Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1/gpt_mini.py
+                python: CPython 3.13.5
+                root: /Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1
+                startedAt: "2025-09-13T02:58:36.410274Z"
+                writerId: yl158bd75gfzyk99ykv7ikcawj2himul
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 49
+                - 51
+            "2":
+                - 1
+                - 49
+                - 51
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.13.5
+            "5": 0.21.4
+            "12": 0.21.4
+            "13": darwin-arm64
+batch_size:
+    value: 16
+block_size:
+    value: 32
+dataset:
+    value: wikitext2
+device:
+    value: mps
+dropout:
+    value: 0
+eval_interval:
+    value: 100
+learning_rate:
+    value: 0.001
+max_iters:
+    value: 5000
+n_embd:
+    value: 64
+n_head:
+    value: 4
+n_layer:
+    value: 4
+seed:
+    value: 1337
+train_tokens:
+    value: 10966424
+val_tokens:
+    value: 1149668
+vocab_size:
+    value: 1118

@@ -1,0 +1,84 @@
+0.209729 M parameters
+step 0: train loss 4.4109, val loss 4.4016, val BPC 6.350
+step 100: train loss 2.6511, val loss 2.6604, val BPC 3.838
+step 200: train loss 2.4941, val loss 2.4902, val BPC 3.593
+step 300: train loss 2.3904, val loss 2.4021, val BPC 3.465
+step 400: train loss 2.3208, val loss 2.3276, val BPC 3.358
+step 500: train loss 2.2541, val loss 2.2714, val BPC 3.277
+step 600: train loss 2.1960, val loss 2.2060, val BPC 3.183
+step 700: train loss 2.1667, val loss 2.1884, val BPC 3.157
+step 800: train loss 2.1257, val loss 2.1529, val BPC 3.106
+step 900: train loss 2.0774, val loss 2.1117, val BPC 3.047
+step 1000: train loss 2.0568, val loss 2.0908, val BPC 3.016
+step 1100: train loss 2.0287, val loss 2.0841, val BPC 3.007
+step 1200: train loss 1.9994, val loss 2.0484, val BPC 2.955
+step 1300: train loss 1.9883, val loss 2.0363, val BPC 2.938
+step 1400: train loss 1.9544, val loss 2.0089, val BPC 2.898
+step 1500: train loss 1.9360, val loss 2.0011, val BPC 2.887
+step 1600: train loss 1.9231, val loss 2.0111, val BPC 2.901
+step 1700: train loss 1.9120, val loss 1.9897, val BPC 2.871
+step 1800: train loss 1.8792, val loss 1.9728, val BPC 2.846
+step 1900: train loss 1.8787, val loss 1.9633, val BPC 2.832
+step 2000: train loss 1.8543, val loss 1.9731, val BPC 2.847
+step 2100: train loss 1.8518, val loss 1.9680, val BPC 2.839
+step 2200: train loss 1.8376, val loss 1.9447, val BPC 2.806
+step 2300: train loss 1.8301, val loss 1.9398, val BPC 2.799
+step 2400: train loss 1.8201, val loss 1.9243, val BPC 2.776
+step 2500: train loss 1.7943, val loss 1.9254, val BPC 2.778
+step 2600: train loss 1.8000, val loss 1.9158, val BPC 2.764
+step 2700: train loss 1.7958, val loss 1.9268, val BPC 2.780
+step 2800: train loss 1.7862, val loss 1.9173, val BPC 2.766
+step 2900: train loss 1.7905, val loss 1.9177, val BPC 2.767
+step 3000: train loss 1.7766, val loss 1.9089, val BPC 2.754
+step 3100: train loss 1.7519, val loss 1.9061, val BPC 2.750
+step 3200: train loss 1.7368, val loss 1.8958, val BPC 2.735
+step 3300: train loss 1.7401, val loss 1.8892, val BPC 2.725
+step 3400: train loss 1.7415, val loss 1.8799, val BPC 2.712
+step 3500: train loss 1.7292, val loss 1.8872, val BPC 2.723
+step 3600: train loss 1.7187, val loss 1.8739, val BPC 2.703
+step 3700: train loss 1.7166, val loss 1.8634, val BPC 2.688
+step 3800: train loss 1.7090, val loss 1.8733, val BPC 2.703
+step 3900: train loss 1.7092, val loss 1.8636, val BPC 2.689
+step 4000: train loss 1.7072, val loss 1.8526, val BPC 2.673
+Traceback (most recent call last):
+  File "/Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1/gpt_mini.py", line 264, in <module>
+    losses = estimate_loss()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1/gpt_mini.py", line 124, in estimate_loss
+    logits, loss = model(X, Y)
+                   ~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1/gpt_mini.py", line 221, in forward
+    x = self.blocks(x) # (B,T,C)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/nn/modules/container.py", line 244, in forward
+    input = module(input)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1/gpt_mini.py", line 198, in forward
+    x = x + self.sa(self.ln1(x))
+            ~~~~~~~^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1/gpt_mini.py", line 166, in forward
+    out = torch.cat([h(x) for h in self.heads], dim=-1)
+                                   ^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/torch/nn/modules/container.py", line 397, in __iter__
+    @_copy_to_script_wrapper
+
+KeyboardInterrupt

@@ -1,0 +1,26 @@
+2025-09-12 20:47:08,437 INFO    MainThread:96052 [wandb_setup.py:_flush():81] Current SDK version is 0.21.4
+2025-09-12 20:47:08,437 INFO    MainThread:96052 [wandb_setup.py:_flush():81] Configure stats pid to 96052
+2025-09-12 20:47:08,437 INFO    MainThread:96052 [wandb_setup.py:_flush():81] Loading settings from /Users/leonleng/.config/wandb/settings
+2025-09-12 20:47:08,437 INFO    MainThread:96052 [wandb_setup.py:_flush():81] Loading settings from /Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1/wandb/settings
+2025-09-12 20:47:08,437 INFO    MainThread:96052 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-12 20:47:08,437 INFO    MainThread:96052 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1/wandb/run-20250912_204708-fswnfn6z/logs/debug.log
+2025-09-12 20:47:08,437 INFO    MainThread:96052 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1/wandb/run-20250912_204708-fswnfn6z/logs/debug-internal.log
+2025-09-12 20:47:08,437 INFO    MainThread:96052 [wandb_init.py:init():813] calling init triggers
+2025-09-12 20:47:08,437 INFO    MainThread:96052 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'dataset': 'ptb', 'device': 'mps', 'n_embd': 64, 'n_head': 4, 'n_layer': 4, 'block_size': 32, 'batch_size': 16, 'learning_rate': 0.001, 'dropout': 0.0, 'max_iters': 5000, 'eval_interval': 100, 'vocab_size': 50, 'train_tokens': 5101618, 'val_tokens': 399782, 'seed': 1337, '_wandb': {}}
+2025-09-12 20:47:08,437 INFO    MainThread:96052 [wandb_init.py:init():854] starting backend
+2025-09-12 20:47:08,654 INFO    MainThread:96052 [wandb_init.py:init():857] sending inform_init request
+2025-09-12 20:47:08,677 INFO    MainThread:96052 [wandb_init.py:init():865] backend started and connected
+2025-09-12 20:47:08,678 INFO    MainThread:96052 [wandb_init.py:init():936] updated telemetry
+2025-09-12 20:47:08,696 INFO    MainThread:96052 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-12 20:47:09,163 INFO    MainThread:96052 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-12 20:47:09,198 INFO    MainThread:96052 [wandb_run.py:_console_start():2506] atexit reg
+2025-09-12 20:47:09,205 INFO    MainThread:96052 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-09-12 20:47:09,205 INFO    MainThread:96052 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-09-12 20:47:09,205 INFO    MainThread:96052 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-09-12 20:47:09,206 INFO    MainThread:96052 [wandb_init.py:init():1049] run started, returning control to user process
+2025-09-12 20:50:15,820 INFO    MainThread:96052 [wandb_run.py:_finish():2272] finishing run leonleng-university-of-washington/mini-gpt-benchmark/fswnfn6z
+2025-09-12 20:50:15,821 INFO    MainThread:96052 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2025-09-12 20:50:15,821 INFO    MainThread:96052 [wandb_run.py:_restore():2453] restore
+2025-09-12 20:50:15,821 INFO    MainThread:96052 [wandb_run.py:_restore():2459] restore done
+2025-09-12 20:50:16,660 INFO    MainThread:96052 [wandb_run.py:_footer_sync_info():3867] logging synced files

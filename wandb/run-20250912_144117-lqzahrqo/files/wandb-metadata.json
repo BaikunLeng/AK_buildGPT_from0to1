@@ -1,0 +1,37 @@
+{
+  "os": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.5",
+  "startedAt": "2025-09-12T21:41:17.479984Z",
+  "program": "/Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1/gpt_mini.py",
+  "codePath": "gpt_mini.py",
+  "codePathLocal": "gpt_mini.py",
+  "git": {
+    "remote": "https://github.com/BaikunLeng/AK_buildGPT_from0to1.git",
+    "commit": "7404252a62709197aea472cb72c5d9062a5c6371"
+  },
+  "email": "120090238@link.cuhk.edu.cn",
+  "root": "/Users/leonleng/Documents/GitHub/AK_buildGPT_from0to1",
+  "host": "Leons-MacBook-Air-2.local",
+  "executable": "/usr/local/bin/python3",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "180954251264"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M4",
+    "ecpuCores": 6,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 16,
+    "swapTotalBytes": "6442450944",
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "jqz8lypuws20s29cv8qu3cgozpokcudc"
+}
